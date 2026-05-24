@@ -111,6 +111,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // New concrete content pages (2026-05)
+  const newConcretePages: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/concrete/slab-thickness-calculator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${baseUrl}/concrete/how-to-calculate-concrete-slab`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${baseUrl}/concrete/slab-material-calculator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/concrete/monolithic-slab-calculator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/concrete/basement-floor-calculator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/concrete/foundation-calculator`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${baseUrl}/compare/ready-mix-vs-bagged-concrete`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 },
+  ];
+
   return [
     ...staticPages,
     ...categoryPages,
@@ -122,5 +133,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...diyVsProPages,
     ...materialGuidePages,
     ...costPages,
+    ...newConcretePages,
   ];
 }
