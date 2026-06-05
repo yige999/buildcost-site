@@ -30,8 +30,11 @@ export async function generateMetadata({ params }: ComparisonPageProps): Promise
   }
 
   return {
-    title: `${comparison.title} Comparison | BuildCost.site`,
+    title: `${comparison.title} Comparison`,
     description: comparison.description,
+    alternates: {
+      canonical: `https://buildcost.site/compare/${id}`,
+    },
   };
 }
 

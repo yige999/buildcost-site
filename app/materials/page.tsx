@@ -8,7 +8,7 @@ import { getAllMaterialGuides } from "@/data";
 import { Package, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Building Materials Guide: Compare & Choose | BuildCost.site",
+  title: "Building Materials Guide: Compare & Choose",
   description: "Complete guides to concrete types, pavers, gravel, and other construction materials. Compare options, costs, and best uses.",
 };
 

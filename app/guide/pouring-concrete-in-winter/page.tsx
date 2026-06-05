@@ -10,7 +10,7 @@ import { Thermometer, Snowflake, Sun, CloudRain, AlertTriangle, CheckCircle } fr
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Pouring Concrete in Winter: Cold Weather Tips & Guide | BuildCost.site",
+  title: "Pouring Concrete in Winter: Cold Weather Tips & Guide",
   description: "Complete guide to pouring concrete in cold weather. Temperature limits, protection methods, accelerators, and winter concreting best practices.",
   keywords: [
     "pouring concrete in winter",

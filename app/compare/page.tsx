@@ -8,7 +8,7 @@ import { getAllComparisons } from "@/data";
 import { Scale, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Comparisons: Materials & Projects | BuildCost.site",
+  title: "Comparisons: Materials & Projects",
   description: "Compare construction materials and project types. Make informed decisions between concrete, pavers, asphalt, gravel, and more.",
 };
 

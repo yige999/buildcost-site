@@ -8,7 +8,7 @@ import { getAllFAQHubs } from "@/data";
 import { HelpCircle, Search } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "FAQ: Frequently Asked Questions | BuildCost.site",
+  title: "FAQ: Frequently Asked Questions",
   description: "Find answers to common questions about concrete calculations, project costs, and construction. Get expert answers to your questions.",
 };
 

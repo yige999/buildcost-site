@@ -8,7 +8,7 @@ import { getAllDimensionGuides } from "@/data";
 import { Ruler, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Standard Dimensions Guide | BuildCost.site",
+  title: "Standard Dimensions Guide",
   description: "Standard dimensions for concrete slabs, driveways, patios, and more. Find common sizes and their material requirements.",
 };
 

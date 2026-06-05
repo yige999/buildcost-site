@@ -39,8 +39,11 @@ export async function generateMetadata({ params }: CalculatorPageProps) {
   const calc = getCalculatorBySlug(category, tool);
 
   return {
-    title: calc?.seoTitle || `${calc?.name} | BuildCost.site`,
+    title: calc?.seoTitle || calc?.name,
     description: calc?.seoDescription || calc?.description,
+    alternates: {
+      canonical: `https://buildcost.site/${category}/${tool}`,
+    },
   };
 }
 

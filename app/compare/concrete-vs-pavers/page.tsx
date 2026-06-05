@@ -10,7 +10,7 @@ import { Check, X, AlertTriangle, Scale } from "lucide-react";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Concrete vs Pavers: Complete Comparison Guide | BuildCost.site",
+  title: "Concrete vs Pavers: Complete Comparison Guide",
   description: "Compare concrete vs pavers for driveways, patios, and walkways. Cost, durability, maintenance, and installation comparison to help you choose.",
   keywords: [
     "concrete vs pavers",

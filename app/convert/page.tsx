@@ -8,7 +8,7 @@ import { getAllConversions } from "@/data";
 import { Calculator, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Unit Conversion Tools | BuildCost.site",
+  title: "Unit Conversion Tools",
   description: "Free construction unit converters. Convert square feet to cubic yards, inches to feet, pounds to kilograms, and more.",
 };
 

@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { FileText } from "lucide-react";
 
 export const metadata = {
-  title: "Terms of Service | BuildCost.site",
+  title: "Terms of Service",
   description: "Terms of Service for BuildCost.site. Read our terms and conditions for using our calculators.",
 };
 

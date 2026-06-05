@@ -46,8 +46,11 @@ export async function generateMetadata({ params }: CategoryPageProps) {
   }
 
   return {
-    title: `${cat.name} | BuildCost.site`,
+    title: cat.name,
     description: cat.description,
+    alternates: {
+      canonical: `https://buildcost.site/${category}`,
+    },
   };
 }
 

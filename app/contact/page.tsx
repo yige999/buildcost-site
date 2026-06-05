@@ -3,7 +3,7 @@ import { Mail, Clock, Users } from "lucide-react";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Contact Us | BuildCost.site",
+  title: "Contact Us",
   description:
     "Have questions about our construction cost calculators? Contact the BuildCost.site team. We're here to help contractors and DIY enthusiasts.",
 };

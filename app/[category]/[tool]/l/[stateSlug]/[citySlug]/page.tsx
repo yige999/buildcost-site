@@ -84,12 +84,15 @@ export async function generateMetadata({ params }: LocalizedPageProps): Promise<
     return { title: "Page Not Found" };
   }
 
-  const baseTitle = calc.seoTitle || `${calc.name} | BuildCost.site`;
-  const locationTitle = baseTitle.replace(" | BuildCost.site", ` in ${city.city}, ${city.stateAbbr} | BuildCost.site`);
+  const baseTitle = calc.seoTitle || calc.name;
+  const locationTitle = `${baseTitle} in ${city.city}, ${city.stateAbbr}`;
 
   return {
     title: locationTitle,
     description: `Calculate ${calc.name.toLowerCase()} costs in ${city.city}, ${city.stateAbbr}. Local pricing, climate-specific recommendations, and material estimates.`,
+    alternates: {
+      canonical: `https://buildcost.site/${category}/${tool}/l/${stateSlug}/${citySlug}`,
+    },
     openGraph: {
       title: locationTitle,
       description: `Get accurate ${calc.name.toLowerCase()} estimates for ${city.city}, ${city.stateAbbr}. Includes local material costs and labor rates.`,

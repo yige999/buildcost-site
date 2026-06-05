@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Calculator, MapPin, DollarSign } from "lucide-react";
 
 export const metadata = {
-  title: "About Us | BuildCost.site",
+  title: "About Us",
   description:
     "Learn about BuildCost.site, a free construction calculator and cost planning resource for U.S. homeowners, DIYers, and contractors.",
 };

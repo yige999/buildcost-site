@@ -29,8 +29,11 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
   }
 
   return {
-    title: `${guide.title} | BuildCost.site`,
+    title: guide.title,
     description: guide.description,
+    alternates: {
+      canonical: `https://buildcost.site/guide/${slug}`,
+    },
   };
 }
 

@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { Shield } from "lucide-react";
 
 export const metadata = {
-  title: "Privacy Policy | BuildCost.site",
+  title: "Privacy Policy",
   description: "Privacy policy for BuildCost.site. Learn how we protect your data and privacy.",
 };
 

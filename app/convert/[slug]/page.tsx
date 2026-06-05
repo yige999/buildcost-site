@@ -33,6 +33,9 @@ export async function generateMetadata({ params }: ConversionPageProps): Promise
   return {
     title: `${conversion.title} Converter - Free Online Calculator`,
     description: conversion.description,
+    alternates: {
+      canonical: `https://buildcost.site/convert/${slug}`,
+    },
   };
 }
 

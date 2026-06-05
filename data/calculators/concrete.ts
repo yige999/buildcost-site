@@ -13,12 +13,12 @@ export const concreteCalculators: CalculatorConfig[] = [
     name: "Concrete Slab Calculator",
     slug: "slab",
     description:
-      "Calculate the amount of concrete needed for your slab project. Get estimates in cubic yards, bags required, and total cost.",
+      "Estimate concrete for any slab project — get cubic yards, 80lb & 60lb bag counts, and total material cost. Includes thickness guide, common sizes (10×10, 10×12, 20×20), and bag-to-yard conversion.",
     category: "concrete",
     icon: "LayoutTemplate",
-    seoTitle: "Concrete Slab Calculator - Estimate Yards, Bags & Cost",
+    seoTitle: "Concrete Slab Calculator - Estimate Yards, Bags & Cost (Free)",
     seoDescription:
-      "Calculate concrete for a slab in cubic yards, cubic feet, 80lb bags, and 60lb bags. Enter length, width, thickness, and waste factor for an instant estimate.",
+      "Free concrete slab calculator. Estimate cubic yards, 80lb & 60lb bags, and cost for any slab size (10x10, 10x12, 20x20). Includes thickness guide, formulas, bag-to-yard conversion, and cost breakdown.",
     inputs: [
       {
         name: "length",
@@ -777,15 +777,15 @@ export const concreteCalculators: CalculatorConfig[] = [
   // ============================================================================
   {
     id: "circle",
-    name: "Circle / Cylinder Calculator",
+    name: "Round Concrete Calculator",
     slug: "circle",
     description:
-      "Calculate concrete needed for circular slabs, pads, and cylinders. Perfect for sonotubes, round pads, and silos.",
+      "Calculate concrete needed for circular slabs, round pads, sonotubes, and cylinders. Get volume in cubic yards, bags required, and total cost.",
     category: "concrete",
     icon: "Circle",
-    seoTitle: "Circle & Cylinder Calculator - Estimate Concrete Volume",
+    seoTitle: "Round Concrete Calculator - Circular Slab, Footing & Sonotube Estimator",
     seoDescription:
-      "Calculate concrete for circular slabs, round pads, and cylinders. Enter diameter and thickness for volume in cubic yards.",
+      "Calculate concrete for circular slabs, round footings, pads, and sonotubes. Enter diameter and depth to get volume in cubic yards, 80lb bags, and estimated cost.",
     inputs: [
       {
         name: "diameter",

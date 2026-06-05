@@ -30,8 +30,11 @@ export async function generateMetadata({ params }: DimensionPageProps): Promise<
   }
 
   return {
-    title: `${guide.title} | BuildCost.site`,
+    title: guide.title,
     description: guide.description,
+    alternates: {
+      canonical: `https://buildcost.site/dimensions/${slug}`,
+    },
   };
 }
 

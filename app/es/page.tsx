@@ -10,7 +10,7 @@ import { getAllCalculators, getAllCategories, getTranslations } from "@/data";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 
 export const metadata: Metadata = {
-  title: "Calculadoras de Construcción Gratis | BuildCost.site",
+  title: "Calculadoras de Construcción Gratis",
   description: "Calcula concreto, techumbre y materiales de construcción con calculadoras en línea gratis. Estimaciones precisas para proyectos de construcción y DIY.",
   keywords: [
     "calculadora de concreto",
@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     "estimador de materiales",
     "calculadora gratis",
   ],
+  alternates: {
+    canonical: "https://buildcost.site/es",
+  },
   openGraph: {
     title: "Calculadoras de Construcción Gratis | BuildCost.site",
     description: "Calculadoras gratis para concreto, techumbre y construcción.",

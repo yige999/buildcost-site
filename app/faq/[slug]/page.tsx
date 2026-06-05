@@ -29,8 +29,11 @@ export async function generateMetadata({ params }: FAQPageProps): Promise<Metada
   }
 
   return {
-    title: `${hub.title} | BuildCost.site`,
+    title: hub.title,
     description: hub.description,
+    alternates: {
+      canonical: `https://buildcost.site/faq/${slug}`,
+    },
   };
 }
 

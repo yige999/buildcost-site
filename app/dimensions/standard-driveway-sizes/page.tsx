@@ -10,7 +10,7 @@ import { Ruler, Car, Truck, Home, Warehouse } from "lucide-react";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Standard Driveway Dimensions & Sizes Guide | BuildCost.site",
+  title: "Standard Driveway Dimensions & Sizes Guide",
   description: "Standard driveway sizes for 1-car, 2-car, and 3-car garages. Minimum and recommended dimensions with layout examples.",
   keywords: [
     "standard driveway size",

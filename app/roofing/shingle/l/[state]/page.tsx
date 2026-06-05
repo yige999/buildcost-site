@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: StatePageProps): Promise<Meta
 
   if (cities.length === 0) {
     return {
-      title: "State Not Found | BuildCost.site",
+      title: "State Not Found",
     };
   }
 

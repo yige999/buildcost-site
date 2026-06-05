@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   creator: "BuildCost.site",
   publisher: "BuildCost.site",
   robots: "index, follow",
+  alternates: {
+    canonical: "https://buildcost.site",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

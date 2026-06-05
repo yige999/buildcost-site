@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: CostPageProps): Promise<Metad
     ` - $${project.nationalAverage.max.toLocaleString()}`;
 
   return {
-    title: `${project.name} Cost ${new Date().getFullYear().toString()}: $${avgCost} | BuildCost.site`,
+    title: `${project.name} Cost ${new Date().getFullYear().toString()}: $${avgCost}`,
     description: `How much does a ${project.name.toLowerCase()} cost? National average is $${avgCost}. Get detailed cost breakdowns by size, factors that affect price, and tips to save money.`,
     keywords: [
       `${project.name.toLowerCase()} cost`,
@@ -41,6 +41,9 @@ export async function generateMetadata({ params }: CostPageProps): Promise<Metad
       `${project.name.toLowerCase()} installation cost`,
       `${project.name.toLowerCase()} cost calculator`,
     ],
+    alternates: {
+      canonical: `https://buildcost.site/cost/${projectId}`,
+    },
   };
 }
 

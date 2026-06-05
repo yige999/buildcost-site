@@ -5,9 +5,12 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { MapPin, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Local Roof Shingle Calculators by City | BuildCost.site",
+  title: "Local Roof Shingle Calculators by City",
   description:
     "Find roof shingle cost calculators for your city. Get local pricing, climate-specific roofing advice, and accurate material estimates for your location.",
+  alternates: {
+    canonical: "https://buildcost.site/roofing/shingle/l",
+  },
 };
 
 export default function LocalLandingPage() {

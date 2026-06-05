@@ -8,7 +8,7 @@ import { getAllGuides, getGuidesByCategory } from "@/data";
 import { BookOpen, Thermometer, Wrench, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Construction Guides & Tutorials | BuildCost.site",
+  title: "Construction Guides & Tutorials",
   description: "Complete guides for concrete construction, seasonal pouring, DIY projects, and maintenance. Expert tips for homeowners and contractors.",
 };
 

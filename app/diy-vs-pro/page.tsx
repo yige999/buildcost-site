@@ -8,7 +8,7 @@ import { getAllDIYVsPro } from "@/data";
 import { Wrench, DollarSign, Scale } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "DIY vs Professional: Should You Hire a Pro? | BuildCost.site",
+  title: "DIY vs Professional: Should You Hire a Pro?",
   description: "Compare DIY and professional costs for concrete, roofing, and other projects. Decide when to DIY and when to hire a contractor.",
 };
 
